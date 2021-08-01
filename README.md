@@ -8,4 +8,11 @@ Q. Given a string you need to print longest possible substring that has exactly 
 Examples:
 • Given a string = "aabbcc" & k = 1 // returns "aa"
 • Given a string = "aabbcc" & k = 2 // returns "aabb"
+
+// Test Cases
+test.startProblem("Longest Substring with at most Ks")
+test.test('cc', longestSubstringWithDistinctKs("aabbcc", 1), 1)
+test.test("bbcc", longestSubstringWithDistinctKs("aabbcc", 2), 2)
+test.test("aabbcc", longestSubstringWithDistinctKs("aabbcc", 3), 3)
+test.endProblem()
 ```
